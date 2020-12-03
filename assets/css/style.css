@@ -1,0 +1,22 @@
+li>a{
+    text-decoration: none;
+    color: black;
+}
+
+header ul{
+    border-bottom: 1px solid black;
+}
+
+header li{
+    list-style-type: none;
+    text-decoration: none;
+    border: none;
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
+
+
+
+
+
+
