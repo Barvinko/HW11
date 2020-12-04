@@ -3,18 +3,58 @@ li>a{
     color: black;
 }
 
-header ul{
-    border-bottom: 1px solid black;
+header li{
+    border-right: 1px solid rgba(0, 0, 0, 0.131);
 }
 
-header li{
+li{
     list-style-type: none;
     text-decoration: none;
-    border: none;
-    border-right: 1px solid black;
     padding: 0 10px;
 }
 
+main li>a{
+    color: rgba(255, 255, 255, 0.515);
+}
+
+.main-c{
+    grid-area: main;
+}
+
+.bag-c{
+    grid-area: bag;
+    background: url(../img/bag.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.watch-c{
+    grid-area: watch;
+    background: url(../img/watch.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.shoes-c{
+    grid-area: shoes;
+    background: url(../img/shoes.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.producs-c{
+    grid-area: producs;
+}
+
+.gridbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 8fr;
+    grid-gap: 10px;
+    grid-template-areas: "main main main"
+                         "bag watch shoes"
+                         "producs producs producs";
+}
 
 
 
